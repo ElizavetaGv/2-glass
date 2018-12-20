@@ -1,0 +1,48 @@
+﻿#glass {
+	border: 2px solid #000;
+	border-top: none;
+	width: 150px;
+	height: 300px;
+	position: relative;
+}
+.part {
+	width: 150px;
+	height: 100px;
+	position: absolute;
+}
+#milk {
+	background-color: #FFE4B5;
+}
+#water {
+	background-color: #B0E0E6; 
+}
+#espresso {
+	background-color: #381616; 
+}
+#milkOutput {
+	position: absolute;
+	left: 200px;
+	top: 40px;
+}
+#waterOutput {
+	position: absolute;
+	left: 200px;
+	top: 140px;
+}
+#espressoOutput {
+	position: absolute;
+	left: 200px;
+	top: 240px;
+}
+.area {
+	width: 150px;
+	height: 20px;
+	cursor: n-resize;
+	z-index:10;
+}
+#area1 {
+	position: absolute; 
+}
+#area2 {
+	position: absolute;
+}
