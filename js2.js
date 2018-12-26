@@ -49,9 +49,15 @@ function onMove(event) {
 	}
 
 	if (moving==area1) {
+		if (currentY>(300-espresso)) {
+			currentY=300-espresso;
+		}
 		milk=currentY;
 		water=300-milk-espresso;
 	} else if (moving==area2){
+		if (currentY<milk) {
+			currentY=milk;
+		}
 		water=currentY-milk;
 		espresso=300-milk-water;
 	}

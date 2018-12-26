@@ -1,4 +1,7 @@
-﻿#glass {
+﻿body {
+	overscroll-behavior: contain;
+}
+#glass {
 	border: 2px solid #000;
 	border-top: none;
 	width: 150px;
